@@ -54,3 +54,9 @@ directory `dist`).
 - `src/styles/global.css` — site styles, light/dark theme variables
 - `src/consts.ts` — site title and description
 - `scripts/new-post.mjs` — post scaffolding script
+
+## Copyright
+
+© John Bradley. All rights reserved.
+The bundled Atkinson Hyperlegible font is separately licensed under the
+[SIL Open Font License](src/assets/fonts/OFL.txt).
