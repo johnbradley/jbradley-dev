@@ -29,7 +29,13 @@
 		--bg: #0f1219;
 	}
 }
+html,
 body {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
 	font-family: var(--font-atkinson);
 	margin: 0;
 	padding: 0;
@@ -47,6 +53,7 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	flex: 1 0 auto;
 }
 h1,
 h2,
